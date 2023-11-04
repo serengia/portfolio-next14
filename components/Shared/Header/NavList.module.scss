@@ -1,0 +1,15 @@
+.nav {
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  .item {
+    .link-active {
+      a {
+        color: red !important;
+      }
+    }
+  }
+}
